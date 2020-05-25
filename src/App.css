@@ -1,0 +1,53 @@
+.App {
+  text-align: left;
+  width:1350px;
+  margin: 50px auto;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height:80px;
+}
+
+.App-header {
+  background-color: rgb(130, 27, 190);
+  height: 150px;
+  padding: 10px;
+  color: rgb(1, 7, 2);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.App-intro {
+  font-size: medium;
+}
+
+form{
+
+  margin: 10px;
+
+}
+label, input{
+  display: block;
+  margin: 20px;
+  
+}
+
+input{
+
+  padding: 10px 3px;
+   
+}
+
+input[type='submit']{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #DDDDDD;
+  color: #010002;
+  border: none;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
